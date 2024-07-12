@@ -4,7 +4,7 @@ import streamlit as st
 def main():
     st.title("Simple Login and Registration Page")
 
-    menu = ["Home", "Login", "Register","premCHUTIya"]
+    menu = ["Home", "Login", "Register"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == "Home":
