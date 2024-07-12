@@ -21,9 +21,9 @@ def main():
             st.info(f"Attempted login with username: {username} and password: {password}")
             # Display message for now (replace with actual authentication logic)
             st.success(f"Welcome {username}!")  # Simulate a successful login
-    elif choice=="premCHUTIya":
-        if st.button("i am gay"):
-            st.text("the prem who is the founder of the gay club which is present in the jspm college and his community name is LGBTQ++")
+    # elif choice=="premCHUTIya":
+    #     if st.button("i am gay"):
+    #         st.text("the prem who is the founder of the gay club which is present in the jspm college and his community name is LGBTQ++")
 
     elif choice == "Register":
         st.subheader("Create a New Account")
